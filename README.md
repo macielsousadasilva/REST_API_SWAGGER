@@ -52,7 +52,7 @@ Then visit `http://localhost:3000/cats`
 
 Visit `http://localhost:3000/swagger` to view the OPENAPI document in Swagger-UI
 
-![Swagger-UI](docs/swagger.png)
+![Swagger-UI](docs/example.png)
 
   
   
