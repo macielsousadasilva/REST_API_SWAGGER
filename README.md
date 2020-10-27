@@ -1,48 +1,79 @@
 
+  
+
 ## REST_API_SWAGGER
+
   
 
 ### Setup
 
   
 
+  
+
 ```bash
+
+  
 
 npm install
 
+  
+
 ```
 
   
 
-### Development with nodemon and tsc --watch
+  
+
+### Iniciar como desenvolvimento com nodemon e tsc --watch
+
+  
 
   
 
 ```bash
+
+  
 
 npm run dev
 
+  
+
 ```
 
   
 
-Then visit `http://localhost:3000/cats`
+  
+
+Após iniciar acesse: `http://localhost:3000/cats`
 
   
 
-### Run without nodemon and tsc --watch
+  
+
+### Iniciar sem o nodemon e tsc --watch
+
+  
 
   
 
 ```bash
 
+  
+
 npm start
+
+  
 
 ```
 
   
 
-Then visit `http://localhost:3000/cats`
+  
+
+Após iniciar acesse: `http://localhost:3000/cats`
+
+  
 
   
 
@@ -50,50 +81,68 @@ Then visit `http://localhost:3000/cats`
 
   
 
-Visit `http://localhost:3000/swagger` to view the OPENAPI document in Swagger-UI
+  
+
+Acesse: `http://localhost:3000/swagger` para visializar a documentação atraves do Swagger-UI
+
+  
 
 ![Swagger-UI](docs/example.png)
 
   
+
+  
   
   
 
-
-
-## Usage
+## Modo de usar exemplo
 
   
 
-### List all records
+  
+
+### (Get) Lista todos os dados
+
+  
 
 ![Example Get all records](docs/get-example.png)
 
   
+
   
 
-### Post (Create) Record
+### (Post)  Cria um novo dado
+
+  
 
 ![Example Post (Create) new record](docs/post-example.png)
 
   
+
   
 
-### Get by Id
+### (Get) Busca um novo dado através do id
+
+  
 
 ![Example Get by ID](docs/get-id-example.png)
 
   
+
   
 
-### Put (Update) Record
+### (Put) Atualiza dado através do id
+
+  
 
 ![Example Put (Update)](docs/put-example.png)
 
   
+
   
 
-### Delete Record
+### (Delete) Remove dado atraves do id
+
+  
 
 ![Example Delete](docs/delete-example.png)
-
-  
